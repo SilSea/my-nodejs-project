@@ -1,0 +1,73 @@
+.container{
+    margin: auto;
+    width: 750px;
+    height: 750px;
+    border: 1px solid black;
+}
+h1{
+    margin: 0;
+}
+/* header */
+.header{
+    display: block;
+    background-color: black;
+}
+.header > h1{
+    color: white;
+    text-align: center;
+}
+/* sidebar */
+.sidebar{
+    float: left;
+    background-color: rgb(107, 143, 8);
+    width: 90px;
+    height: 676px;
+}
+.sidebar > div{
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+}
+/* maincontent */
+.main-content{
+    float: left;
+    width: 660px;
+}
+.banner{
+    background-color: aqua;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+}
+.banner > h1{
+    padding-top: 8%;
+}
+.news{
+    display: inline-block;
+    width: 305px;
+    height: 487px;
+    margin: 10px;
+    background-color: yellowgreen;
+}
+.news > h1{
+    text-align: center;
+}
+.todolist{
+    display: inline-block;
+    width: 310px;
+    height: 487px;
+    margin: 10px;
+    background-color: rgb(255, 0, 255);
+}
+.todolist > h1{
+    text-align: center;
+}
+/* footer */
+.footer{
+    clear: both;
+    background-color: rgb(255, 11, 11);
+}
+.footer > h1{
+    color: white;
+    text-align: center;
+}

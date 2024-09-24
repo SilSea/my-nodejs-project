@@ -1,0 +1,24 @@
+.container{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+}
+.container-2{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+}
+.box{
+    width: 200PX;
+    height: 200PX;
+    background-color: blue;
+    float: right;
+    margin: 10px;
+}
+.container-2 > .box{
+    width: 300PX;
+    height: 200PX;
+    background-color: blue;
+    float: left;
+    margin: 10px;
+}
