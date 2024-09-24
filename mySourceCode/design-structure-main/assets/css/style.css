@@ -1,0 +1,91 @@
+/* Control */
+p{
+    color: white;
+    margin: 0;
+    padding: 16px;
+}
+
+/* Container */
+.container{
+    width: 750px;
+    height: 750px;
+    margin: auto;
+    border: 5px solid #021526;
+    border-radius: 15px;
+}
+
+/* Header */
+.header{
+    text-align: center;
+    background-color: #021526;
+    border-bottom: 5px solid #021526;
+}
+.header > p{
+    color: white;
+    font-size: xx-large;
+}
+
+/* Sidebar */
+.sidebar{
+    float: left;
+    width: 150px;
+    height: 602px;
+    text-align: center;
+    background-color: #6EACDA;
+    border-right: 5px solid #021526;
+}
+.menu{
+    margin: 10%;
+    padding: 16px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+/* MainContainer */
+.main-container{
+    float: left;
+    width: 595px;
+    height: 602px;
+}
+.banner{
+    margin: 10px;
+    text-align: center;
+    height: 121px;
+    background-color: #E2E2B6;
+    border-radius: 25px;
+}
+.banner > p{
+    font-size: xx-large;
+    padding: 42px;
+}
+.content1,.content2{
+    display: inline-block;
+    width: 275.5px;
+    height: 441px;
+    margin: 10px;
+    text-align: center;
+}
+.content1{
+    background-color: #77E4C8;
+    border-radius: 30px;
+}
+.content2{
+    background-color: #478CCF;
+    border-radius: 30px;
+}
+.content1 > p ,.content2 > p{
+    padding-top: 212.5px;
+    font-size: xx-large;
+}
+
+/* Footer */
+.footer{
+    clear: both;
+    text-align: center;
+    background-color: #03346E;
+    border-top: 5px solid #021526;
+}
+.footer > p{
+    font-size: xx-large;
+}

@@ -1,0 +1,131 @@
+/* layout*/
+html,body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    position: relative;
+}
+/* header */
+.header-container{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 4.2%;
+    background-color: rgb(46, 46, 46);
+}
+.header-container > a > img{
+    position: absolute;
+    top: 0;
+    left: 3%;
+    width: 7%;
+    height: 100%;
+}
+.header-container > a > h1 {
+    position: absolute;
+    top: 38%;
+    left: 12%;
+    margin: 0;
+    color: white;
+    font-size: xx-large;
+}
+/* content index */
+.content-container{
+    position: relative;
+    top: -0.5%;
+    width: 100%;
+    height: 77%;
+}
+.card-container-top,.card-container-center,.card-container-bottom {
+    position: relative;
+    width: 100%;
+}
+.card-container-top{
+    top: 1%;
+}
+.card-container-center{
+    top: 34%;
+}
+.card-container-bottom{
+    top: 67%;
+}
+.card-left{
+    position: absolute;
+    text-align: center;
+    width: 33%;
+}
+.card-left > div{
+    margin: 1%;
+}
+.card-center > div{
+    margin: 1%;
+}
+.card-right > div{
+    margin: 1%;
+}
+.card-center{
+    position: absolute;
+    text-align: center;
+    width: 33%;
+    left: 33%;
+}
+.card-right{
+    position: absolute;
+    text-align: center;
+    width: 33%;
+    left: 66%;
+}
+.card-left,.card-center,.card-right{
+    margin-top: 1%;
+}
+.card-img{
+    width: 20%;
+}
+
+/* content photo-descrip */
+.descrip-container{
+    position: relative;
+}
+.h1-descip{
+    text-align: left;
+    padding-left: 25%;
+    width: 60%;
+}
+.img-descrip{
+    position: absolute;
+    top: 8%;
+    right: 10%;
+    width: 25%;
+}
+.p-descrip{
+    margin-left: 13%;
+    width: 48%;
+    font-size: larger;
+}
+.a-descrip{
+    position: absolute;
+    left: 50%;
+}
+
+/* footer */
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(46, 46, 46);
+}
+.footer > p {
+    position: absolute;
+    top: 26%;
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
